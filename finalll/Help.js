@@ -34,7 +34,7 @@ class Help {
         return found;
     }
 
-    mul() {
+    mull() {
         var found = this.chooseCell(0);
         var newCell = random(found);
 
@@ -96,7 +96,7 @@ class Help {
         }
     }
             if (this.energy >= 5) {
-                this.mul();
+                this.mull();
             }
         }
         else {

@@ -34,7 +34,7 @@ class Virus {
         return found;
     }
 
-    mul() {
+    mull() {
         var found = this.chooseCell(0);
         var newCell = random(found);
 
@@ -108,7 +108,7 @@ class Virus {
             }
         }
             if (this.energy >= 20) {
-                this.mul();
+                this.mull();
             }
         }
 

@@ -28,7 +28,7 @@ class Grass {
         }
         return found;
     }
-    mul() {
+    mull() {
         var newCell = random(this.chooseCell(0));
         
         if (this.multiply >= 6 && newCell) {

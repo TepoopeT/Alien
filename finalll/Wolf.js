@@ -58,7 +58,7 @@ class Wolf extends LivingCreature {
         return found;
     }
     
-    mul() {
+    mull() {
         var found = this.chooseCell(0);
         var newCell = random(found);
     
@@ -115,7 +115,7 @@ class Wolf extends LivingCreature {
         }
         
             if (this.energy >=9) {
-                this.mul();
+                this.mull();
             }
         }
         else {

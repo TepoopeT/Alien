@@ -34,7 +34,7 @@ class Monster {
         return found;
     }
 
-    mul() {
+    mull() {
         var found = this.chooseCell(0);
         var newCell = random(found);
 
@@ -96,7 +96,7 @@ class Monster {
             }
         }
             if (this.energy >= 9) {
-                this.mul();
+                this.mull   ();
             }
         }
         else {

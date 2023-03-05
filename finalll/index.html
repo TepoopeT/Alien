@@ -1,22 +1,46 @@
 <html>
    <head>
-        <!-- <a href="stats.html">Statistics</a>
-        <p id="weather"></p> -->
+        <title>Game of life</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/socket.io/socket.io.js"></script>
+
        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
        <script src="class.js"></script>
        <script src="GrassEater.js"></script>
        <script src="Monster.js"></script>
        <script src="Help.js"></script>
        <script src="Virus.js"></script>
-       <script src="script.js"></script>
        <script src="LivingCreature.js"></script>
        <script src="Mahaha.js"></script>
        <script src="Wolf.js"></script>
-       <!-- <script src="server.js"></script> -->
-       <!-- <script src=""></script> -->
 
+       <link rel="stylesheet" href="style.css">
    </head>
     <body>
-        
+    
+        <p id="weather"></p>
+        <div>
+            <h1>Weather</h1>
+            <button class="weatherBtt" onclick="winterFunc()">Winter</button>
+
+            <button class="weatherBtt" onclick="springFunc()">Spring</button>
+
+            <button class="weatherBtt" onclick="summerFunc()">Summer</button>
+
+            <button class="weatherBtt" onclick="autumnFunc()">Autumn</button></div>
+          
+            <div class="statistics_box">
+                    <p>Grass: <span class="statistic" id="grassR">0</span></p>
+                    <p>GrassEater: <span class="statistic" id="grasseaterR">0</span></p>
+                    <p>Monster: <span class="statistic" id="monsterR">0</span></p>
+                    <p>Virus: <span class="statistic" id="virusR">0</span></p>
+                    <p>Help: <span class="statistic" id="helpR">0</span></p>
+                    <p>Wolf: <span class="statistic" id="wolfR">0</span></p>
+                    <p>Mahaha: <span class="statistic" id="mahahaR">0</span></p>
+            </div>
+       <script src="script.js"></script>
+
     </body>
 </html>

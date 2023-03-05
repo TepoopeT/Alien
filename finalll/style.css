@@ -1,0 +1,16 @@
+
+#weather{
+   margin-left: 40px;
+}
+
+.weatherBtt{
+    display:block;
+    margin-top: 5px;
+}
+.weatherBtt{
+    background-color: #00D5FF;
+    font-weight: bold;
+    height: 28px;
+    border-radius: 10%;
+    border : 1px solid #00D5FF
+}

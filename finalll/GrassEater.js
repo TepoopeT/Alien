@@ -34,7 +34,7 @@ class GrassEater {
         return found;
     }
     
-    mul() {
+    mull() {
         var found = this.chooseCell(0);
         var newCell = random(found);
 
@@ -90,7 +90,7 @@ class GrassEater {
             }
         }
             if (this.energy >= 30) {
-                this.mul();
+                this.mull();
             }
         }
 

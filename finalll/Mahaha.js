@@ -58,7 +58,7 @@ chooseCell(character, food1,food2) {
     return found;
 }
 
-mul() {
+mull() {
     var found = this.chooseCell(0);
     var newCell = random(found);
 
@@ -120,7 +120,7 @@ eat() {
     //     }
    // }
         if (this.energy >=10) {
-            this.mul();
+            this.mull();
         }
     }
     else {
